@@ -8,8 +8,7 @@ button = st.button("Generate")
 
 from langchain_openai import ChatOpenAI
 import os
-os.environ['OPENAI_API_KEY'] = "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"
-gpt3 = ChatOpenAI(model = "gpt-3.5-turbo")
+gpt3 = ChatOpenAI(model="gpt-3.5-turbo")
 
 from langchain import PromptTemplate
 
